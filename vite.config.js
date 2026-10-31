@@ -3,6 +3,6 @@ import { defineConfig } from 'vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base:"/homework6/",
+  base:"/homework12/",
   plugins: [react()],
 })
