@@ -6,7 +6,7 @@ function App() {
   const [num, setNum] = useState("🪨 Rock")
   
   // Hər dəfə düyməyə basıldıqda komponent yenilənir və robot təsadüfi seçim edir
-  const robot = siyahi[Math.floor(Math.random() * siyahi.length)]
+  const robot = siyahi[Math.floor(Math.random() * 3)]
   let n;
 
   if (robot === num) {
